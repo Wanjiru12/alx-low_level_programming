@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,12 +11,12 @@
 
 int main(void)
 {
-char c[9] = "_putchar";
+char s[9] = "_putchar";
 int i = 0;
 
 while (i < 8)
 {
- _putchar(c[i]);
+_putchar(s[i]);
 i++;
 }
 _putchar('\n');
